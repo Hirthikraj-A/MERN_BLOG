@@ -6,8 +6,19 @@ import Projects from './pages/Projects.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Signin from './pages/Signin.jsx'
 import Signup from './pages/Signup.jsx'
+import Header from './Components/Header.jsx'
 export default function App() {
   return (
-    <h1 className='text-3xl text-red-500'>App</h1>
+    <BrowserRouter>
+    <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
