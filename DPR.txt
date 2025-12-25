@@ -3,3 +3,8 @@ I have learned about the MERN stack installation of node js and setting the envi
 
 Added pages and used rfc
 Started creating the Header component using flowbite
+
+25/12/2025
+I have learned to creat a Header.jsc component
+with Nav bar using flowbite
+ Started Backend
